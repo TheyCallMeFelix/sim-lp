@@ -32,7 +32,7 @@ export default function Home() {
           PinDrop is a luxury mobile golf simulator experience delivered to your home, event, or private gathering. Book exotic courses. Swing real clubs. Zero travel.
         </p>
 
-        <Link href="#leadform">
+        <Link href="#how">
           <p className="mt-8 w-64 h-14 mx-auto flex items-center justify-center border-2 border-black text-white bg-black font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 shadow-lg">
             Get Early Access
           </p>
