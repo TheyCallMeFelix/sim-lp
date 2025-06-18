@@ -101,15 +101,15 @@ export default function SiteHeader() {
               {/* <Link href="/#features" className="hover:text-black transition">Features</Link> */}
             </motion.li>
             <motion.li variants={menuItemVariants}>
-              <Link href="/#contact" onClick={toggleMenu} className="text-base font-medium hover:text-black">Contact</Link>
+              <Link href="/#leadform" onClick={toggleMenu} className="text-base font-medium hover:text-black">Contact</Link>
             </motion.li>
-            <motion.li variants={menuItemVariants}>
+            { /*<motion.li variants={menuItemVariants}>
               {hasSignedUp === null ? null : hasSignedUp ? (
                 <Link href="/signin" onClick={toggleMenu} className="bg-black text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 transition">Sign In</Link>
               ) : (
                 <Link href="/signup" onClick={toggleMenu} className="bg-black text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 transition">Get Started</Link>
               )}
-            </motion.li>
+            </motion.li> */}
           </motion.ul>
         )}
       </AnimatePresence>
